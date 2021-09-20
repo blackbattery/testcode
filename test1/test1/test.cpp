@@ -30,6 +30,8 @@
 #include <iomanip>
 #include"stmp/Smtp.h"
 #include "ThreadPool.hpp"
+#include <thread>
+#include <future>
 
 
 
@@ -599,6 +601,7 @@ bool ParseRecordStorage(bool& is_enable, int & max_save_time, const string& ret_
 }
 
 void TestThreadPool();
+void TestAsyncInterface();
 int _tmain(int argc, _TCHAR* argv[])
 {
 
@@ -639,7 +642,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::string testTemp = str_fmt("%.1f", f_temperature);
 
 
-	TestThreadPool();
+	//TestThreadPool();
+
+	//≤‚ ‘“Ï≤ΩΩ”ø⁄
+	TestAsyncInterface();
 
 
 
@@ -991,6 +997,29 @@ void TestThreadPool()
 	threads.join();
 	thread2.join();
 
+}
+
+
+void TestAsyncInterface()
+{
+	int i = 20;
+	auto func = [=]() { return std::to_string(20+i); };
+	std::future<string>  resutlt= std::async(std::launch::async, func);
+	std::future_status f_status ;
+	do 
+	{
+		f_status = resutlt.wait_for(std::chrono::microseconds(100));
+		if (f_status == std::future_status::deferred ||
+			f_status == std::future_status::timeout)
+		{
+			std::cout << "not get result!" << std::endl;
+		}
+		else
+		{
+			auto f_string = resutlt.get();
+			std::cout << "f_string=" << f_string << std::endl;
+		}
+	} while (f_status != std::future_status::ready);
 }
 
 string CreateFileNameBySource( string& str_source_name, string& str_suffix)

@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(test1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  test.cpp
+F:\OpensourceCode\test-master\test-master\test1\test1\stmp\Smtp.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\OpensourceCode\test-master\test-master\test1\test1\ThreadPool.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\OpensourceCode\test-master\test-master\test1\test1\SyncQueue.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(104,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(152,25): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(197,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(226,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(225,7): warning C4101: “str”: 未引用的局部变量
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(277,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(280,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(282,12): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(286,7): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(326,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(394,18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(409,18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(425,18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(443,18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(637,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(765,23): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(1074,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(1080,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(1170,40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(1278,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(1279,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\OpensourceCode\test-master\test-master\test1\test1\test.cpp(1406,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  正在生成代码
+  已完成代码的生成
+  test1.vcxproj -> F:\OpensourceCode\test-master\test-master\test1\test1\test.exe
